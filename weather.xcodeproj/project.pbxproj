@@ -13,6 +13,8 @@
 		1CB30C25277C11C400D1A30E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB30C23277C11C400D1A30E /* Main.storyboard */; };
 		1CB30C27277C11C700D1A30E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB30C26277C11C700D1A30E /* Assets.xcassets */; };
 		1CB30C2A277C11C700D1A30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB30C28277C11C700D1A30E /* LaunchScreen.storyboard */; };
+		1CB30C32277C141500D1A30E /* WeatherInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB30C31277C141500D1A30E /* WeatherInformation.swift */; };
+		1CB30C34277C24BF00D1A30E /* errorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB30C33277C24BF00D1A30E /* errorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1CB30C26277C11C700D1A30E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CB30C29277C11C700D1A30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CB30C2B277C11C700D1A30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CB30C31277C141500D1A30E /* WeatherInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInformation.swift; sourceTree = "<group>"; };
+		1CB30C33277C24BF00D1A30E /* errorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = errorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1CB30C1D277C11C400D1A30E /* AppDelegate.swift */,
 				1CB30C1F277C11C400D1A30E /* SceneDelegate.swift */,
 				1CB30C21277C11C400D1A30E /* ViewController.swift */,
+				1CB30C31277C141500D1A30E /* WeatherInformation.swift */,
+				1CB30C33277C24BF00D1A30E /* errorMessage.swift */,
 				1CB30C23277C11C400D1A30E /* Main.storyboard */,
 				1CB30C26277C11C700D1A30E /* Assets.xcassets */,
 				1CB30C28277C11C700D1A30E /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CB30C22277C11C400D1A30E /* ViewController.swift in Sources */,
+				1CB30C32277C141500D1A30E /* WeatherInformation.swift in Sources */,
+				1CB30C34277C24BF00D1A30E /* errorMessage.swift in Sources */,
 				1CB30C1E277C11C400D1A30E /* AppDelegate.swift in Sources */,
 				1CB30C20277C11C400D1A30E /* SceneDelegate.swift in Sources */,
 			);
